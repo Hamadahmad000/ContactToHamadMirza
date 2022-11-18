@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 31);
+    font-family: sans-serif;
+    color: white;
+}
+.contect-section{
+    width: 40%;
+    height: 99vh;
+    padding-left: 6%;
+}
+.contect-section h1{
+    margin-top: 50px;
+    font-size: 50px;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+    
+    
+}
+.contect-section h3{
+    font-size: 19px;
+    margin-bottom: 10px;
+    margin-top: 70px;
+    letter-spacing: 1px;
+    
+}
+.contect-section p{
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 3px;
+
+}
+.contect-section i{
+    padding-right: 8px;
+    color: yellow;
+}
+
+
+/* apply section  */
+
+.submit-section{
+height: 99vh;
+width: 45%;
+position: absolute;
+top: 0px;
+left: 47%;
+}
+
+.rap{
+ display: flex;
+ width: 500px;
+ margin-bottom: 20px;
+}
+.submit-section label{
+font-weight: bold;
+margin-right: 10px;
+}
+.submit-section input{
+    background: transparent;
+    outline: none;
+    border: none;
+    border-bottom: 2px solid white;
+    color: white;
+    padding-left: 5px;
+    padding: 5px;
+}
+
+.submit-section #Address{
+    width: 474px;
+    margin-bottom: 20px;
+}
+.submit-section button{
+    width: 474px;
+    height: 35px;
+    border-radius: 20px;
+    font-size: 18px;
+   background: transparent;
+   border: 2px solid orangered;
+    color: white;
+    margin-top: 50px;
+    box-shadow: 0px 0px 20px orangered;
+    transition: all .3s;
+    cursor: pointer;
+    
+}
+.submit-section button:hover{
+background-color: orangered;
+}
+.submit-section #Mesaage{
+    height: 100px;
+    width: 474px;
+}
+.submit-section #Email{
+    margin-right: 29px;
+}
+.subsec{
+    margin-top: 100px;
+    margin-left: 40px;
+}
